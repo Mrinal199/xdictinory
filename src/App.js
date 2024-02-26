@@ -28,13 +28,10 @@ const App = () => {
           id="search"
           type="text"
           placeholder='Search for a word...'
-          style={{ width: '150px', height: '25px' }}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button onClick={handleSearch}>Search</button>
-      </div>
-      <div>
+        <button onClick={handleSearch}>Search</button><br></br>
         <p id="definitionTitle"><strong>Definition:</strong></p>
         <p>{definition}</p>
       </div>
