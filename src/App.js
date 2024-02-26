@@ -40,7 +40,7 @@ const App = () => {
         <br></br>
         <div>
           <strong>Definition:</strong>
-          <p></p>
+          <p>{definition}</p>
         </div>
       </div>
     </div>
