@@ -23,10 +23,11 @@ const App = () => {
     <div>
       <h2>Dictionary App</h2>
       <div>
-        <label htmlFor="search">Search for word...</label>
+        <label htmlFor="search"></label>
         <input
           id="search"
           type="text"
+          placeholder='Search for a word...'
           style={{ width: '150px', height: '25px' }}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
