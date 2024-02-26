@@ -34,7 +34,7 @@ const App = () => {
         <button onClick={handleSearch}>Search</button>
       </div>
       <div>
-        <p><strong>Definition:</strong></p>
+        <p id="definitionTitle"><strong>Definition:</strong></p>
         <p>{definition}</p>
       </div>
     </div>
