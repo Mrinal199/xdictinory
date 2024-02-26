@@ -33,7 +33,7 @@ const App = () => {
         />
         <button onClick={handleSearch}>Search</button><br></br>
         <p id="definitionTitle"><strong>Definition:</strong></p>
-        <p>{definition}</p>
+        <p id="definition">{definition}</p> {/* Updated: Added id to the definition paragraph */}
       </div>
     </div>
   );
